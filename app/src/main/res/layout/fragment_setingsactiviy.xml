@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setingsactiviy">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/adnewmember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Member"/>
+        <Button
+            android:id="@+id/joingroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join Group"/>
+        <Button
+            android:id="@+id/adnumforemergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Emergency Num"/>
+
+    </LinearLayout>
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="148dp"
+        android:id="@+id/viewwwflipper"
+        android:inAnimation="@android:anim/fade_out">
+
+
+
+        <ImageView
+            android:id="@+id/qrcoview"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="@android:dimen/app_icon_size"
+            android:src="@android:color/darker_gray"
+            android:contentDescription="QrCodeImage" />
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/addtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Number" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Number"
+                    android:id="@+id/baddtext"
+                    android:layout_gravity="center"/>
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/listviewhhh"></ListView>
+                </LinearLayout>
+            </ScrollView>
+
+
+    </ViewFlipper>
+
+</FrameLayout>

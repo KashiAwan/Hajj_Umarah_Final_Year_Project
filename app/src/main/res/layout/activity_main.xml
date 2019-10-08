@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <com.google.android.material.tabs.TabLayout
+       android:id="@+id/tablayoutt"
+       android:layout_width="wrap_content"
+       android:layout_height="58dp"
+       app:tabBackground="@color/colorPrimary"
+       app:tabGravity="fill"
+       app:tabIndicatorColor="#850808"
+       app:tabMode="scrollable"
+       app:tabSelectedTextColor="#850808"
+       app:tabTextAppearance="@style/TextAppearance.AppCompat.Medium"
+       app:tabTextColor="#FFFFFF">
+
+
+      <com.google.android.material.tabs.TabItem
+          android:id="@+id/Homee"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/Homee" />
+
+      <com.google.android.material.tabs.TabItem
+          android:id="@+id/Timee"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/Time" />
+
+      <com.google.android.material.tabs.TabItem
+          android:id="@+id/Weatherr"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/Weatherr" />
+
+      <com.google.android.material.tabs.TabItem
+          android:id="@+id/Qibla"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/Qibla" />
+
+      <com.google.android.material.tabs.TabItem
+          android:id="@+id/Currencyy"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/Currencyy" />
+
+      <com.google.android.material.tabs.TabItem
+          android:id="@+id/Mina"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/Mina" />
+
+      <com.google.android.material.tabs.TabItem
+          android:id="@+id/Settingss"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/Settingss" />
+
+
+   </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Viewpagerr"/>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "858863632434",
+    "firebase_url": "https://hajjumarahfinalyearproject.firebaseio.com",
+    "project_id": "hajjumarahfinalyearproject",
+    "storage_bucket": "hajjumarahfinalyearproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858863632434:android:9faa4df4de53235a",
+        "android_client_info": {
+          "package_name": "com.example.hajj_umarah_final_year_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858863632434-d2c0lgkp95onlkuu26cmuh1m6atqi1rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hajj_umarah_final_year_project",
+            "certificate_hash": "951b3f7f3ba892e78284f2232af776cb3fbbb17c"
+          }
+        },
+        {
+          "client_id": "858863632434-2ghk4fkhoi7g63oslvo39tsqgimlvr61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwXL7FfaY0hkWUPqZlay_2vcxKaJw-89M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858863632434-2ghk4fkhoi7g63oslvo39tsqgimlvr61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
